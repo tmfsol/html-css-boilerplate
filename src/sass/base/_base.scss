@@ -1,0 +1,23 @@
+@use './../abstracts';
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: abstracts.$font-family-base;
+	font-size: abstracts.$font-size-base;
+	line-height: abstracts.$line-height-base;
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
